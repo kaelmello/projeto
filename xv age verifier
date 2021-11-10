@@ -1,0 +1,26 @@
+programa 
+{ 
+	funcao inicio ()
+	{
+		const inteiro maioridade =18
+		cadeia nome
+		inteiro idade
+		escreva("Digite seu nome:\n")
+		leia(nome)
+		escreva("Digite a sua idade:\n")
+		leia(idade)
+		escreva("O nome digitado foi: "+nome+"\n")
+		escreva("A idade digitada foi: "+idade+"\n")
+		se(idade < 0){
+		    escreva("Eres un feto!!!")
+		}senao se(idade < maioridade){
+		    escreva("Sai desse site muleke!!!")
+		}senao se(idade > 55){
+		    escreva("Não ta muito velho paa esses sites não???")
+		}senao se(idade == 24){
+		    escreva("Deveras homoafetiva a sua idade!!!")
+		}senao{
+		    escreva("É de maior, cuidado com as de menor (;")
+		}
+	} 
+}
