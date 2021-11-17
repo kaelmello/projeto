@@ -1,0 +1,32 @@
+programa {
+	funcao inicio() {
+	    inteiro numero1
+	    inteiro numero2
+	    inteiro numero3
+        escreva("Escreva um numero: ")
+        leia(numero1)
+        escreva("Escreva mais um número diferente: ")
+        leia(numero2)
+        escreva("Apenas mais um numero diferente: ")
+        leia(numero3)
+        se (numero1>numero2){
+            se (numero2>numero3){
+                escreva(numero3+", "+numero2+", "+numero1)
+            }senao{
+                escreva(numero2+", "+numero3+", "+numero1)
+            }
+        }senao se(numero2>numero3){
+            se (numero1>numero3){
+                escreva(numero3+", "+numero1+", "+numero2)
+            }senao{
+                escreva(numero1+", "+numero3+", "+numero2)
+            }
+        }senao{
+            se(numero1>numero2){
+                escreva(numero2+", "+numero1+", "+numero3)
+            }senao{
+                escreva(numero1+", "+numero2+", "+numero3)
+            }
+        }
+	}
+}
