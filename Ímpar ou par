@@ -1,0 +1,12 @@
+programa {
+	funcao inicio() {
+		inteiro num, resultado, contador, limite
+		escreva("Digite um número ímpar: ")
+		leia(num)
+		se (num % 2 == 0){
+		    escreva("É par!")
+		}senao{
+		    escreva("É ímpar!")
+		}
+	}
+}
