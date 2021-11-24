@@ -1,0 +1,15 @@
+programa {
+	funcao inicio() {
+		inteiro contador, limite, num, resultado
+		contador = 1
+		escreva("Informe o número referente a tabuada: ")
+		leia(num)
+		escreva("\nQual é o número limite para a tabuada?")
+		leia(limite)
+		faca{
+		    resultado = num * contador
+		    escreva(num +" X "+contador+" = "+resultado+"\n")
+		    contador ++
+		}enquanto(contador <= limite)
+	}
+}
